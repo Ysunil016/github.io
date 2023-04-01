@@ -235,6 +235,9 @@ a {
   padding-right: 5%;
   margin-bottom: 60px;
 }
+.experience .job-wrapper .company-description p b {
+    color: lightgray
+}
 @media (max-width: 450px) {
   .experience .job-wrapper {
     width: 100%;
