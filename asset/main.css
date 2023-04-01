@@ -307,15 +307,44 @@ a {
     padding: 10px;
 }
 
+.skill-section .tech-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10px;
+}
+
+@media (max-width: 1400px) {
+  .skill-section .tech-container {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+@media (max-width: 1150px) {
+  .skill-section .tech-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (max-width: 850px) {
+  .skill-section .tech-container {
+    grid-template-columns: auto auto auto auto auto;
+  }
+}
+@media (max-width: 400px) {
+  .skill-section .tech-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+
 .skill-section .tech-container img {
     width: 50px;
     height: 40px;
+    text-align: left;
 }
 .skill-section .tech-container label{
     font-style: italic;
     font-size: 12px;
+    margin-left: 2px;
 }
 .skill-section .tech-item {
-  padding: 8px;
-  text-align: center;
+    padding: 8px;
 }
