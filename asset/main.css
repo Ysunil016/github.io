@@ -297,19 +297,25 @@ a {
   font-weight: 400;
 }
 
-.tech-container {
+.skill-section .heading{
+    color: darkcyan;
+    margin-left: 25px;
+}
+.skill-section .tech-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
     padding: 10px;
 }
-.tech-container img {
-    width: 36px;
+
+.skill-section .tech-container img {
+    width: 50px;
+    height: 40px;
 }
-.tech-container label{
-    font-size: 16px;
+.skill-section .tech-container label{
+    font-style: italic;
+    font-size: 12px;
 }
-.tech-item {
-  padding: 20px;
-  font-size: 30px;
+.skill-section .tech-item {
+  padding: 8px;
   text-align: center;
 }
