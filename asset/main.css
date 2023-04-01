@@ -75,6 +75,10 @@ a {
     padding-left: 75px;
   }
 }
+.experience-wrapper hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .profile li {
   margin-bottom: 10px;
 }
@@ -233,7 +237,6 @@ a {
   float: left;
   text-align: left;
   padding-right: 5%;
-  margin-bottom: 60px;
 }
 .experience .job-wrapper .company-description p b {
     color: lightgray
