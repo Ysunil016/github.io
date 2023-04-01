@@ -230,6 +230,9 @@ a {
   padding-right: 5%;
   margin-bottom: 60px;
 }
+.experience .company-wrapper .company-logo{
+  width: 50%;
+}
 @media (max-width: 450px) {
   .experience .company-wrapper {
     width: 100%;
