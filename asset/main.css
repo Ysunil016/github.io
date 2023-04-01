@@ -88,11 +88,6 @@ a {
   display: block;
   float: left;
 }
-@media (max-width: 1200px) {
-  .profile .picture-resume-wrapper {
-    width: 100%;
-  }
-}
 .profile .picture-resume {
   width: 220px;
   height: 220px;
