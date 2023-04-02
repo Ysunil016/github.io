@@ -292,10 +292,15 @@ a {
   margin-bottom: 20px;
   font-weight: 400;
 }
-
+.skill-section{
+    margin-top: 20px;
+}
 .skill-section .heading{
     color: darkcyan;
-    margin-left: 25px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-style: italic;
+    font-family: cursive;
 }
 
 .skill-section .tech-container {
@@ -342,4 +347,5 @@ a {
 }
 .skill-section .tech-item {
     padding: 8px;
+    text-align: center;
 }
